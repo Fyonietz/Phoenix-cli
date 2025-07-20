@@ -1,6 +1,3 @@
-Here’s a clean and thematic **README.md** for your Phoenix CLI tool, using the metaphor of the **mythical Phoenix** and its **build process** through CMake.
-
----
 
 # 🔥 Phoenix CLI
 
