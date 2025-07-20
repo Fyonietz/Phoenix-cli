@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
+
+project(Ninja)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+
+add_executable(
+    ${CMAKE_PROJECT_NAME}
+    ${SOURCES}
+)
